@@ -42,7 +42,7 @@
     align-items: center;
 
     background-image: url(bg\ photo.png);
-    linear-gradient(45deg,)
+
 
 
 }
@@ -60,6 +60,7 @@
     background-color: red;
     color: white;
     border: none;
+   
 
 }
 .btn:hover{
@@ -72,8 +73,36 @@
 .about-container{
     display: flex;
     justify-content: space-around;
+    height: 60vh;
+    align-items: center;
 }
 .about-title{
     text-align: center;
     padding-top: 20px;
+}
+.box{
+    width: 200px;
+    height: 280px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 4px 2px 15px gray;
+    border-radius: 10px;
+}
+.box-title{
+    padding: 10px;
+
+}
+.box-btn{
+background-color: gray;
+}
+.Service-container{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    flex-wrap: wrap;
+   
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
 }
